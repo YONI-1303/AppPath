@@ -1,0 +1,40 @@
+APPPATH MILESTONE 3 MEGA — FEATURE SUMMARY
+
+1. Finding triage
+   Search across finding ID, rule, title, category, evidence, description, recommendation;
+   filter by severity and category without losing search focus.
+
+2. Evidence graph
+   Interactive APK root -> category -> finding graph. Node clicks open details. Lines are a
+   visual evidence hierarchy, not a proven runtime connection.
+
+3. Expanded static signals
+   DEX string/class references for selected cipher/digest/random indicators, plus the earlier
+   manifest, permission, endpoint, secret-pattern, and exported-component checks.
+
+4. OWASP MASVS topic mapping
+   Findings connect to broad topic groups. This does not test all MASVS controls and cannot
+   be represented as a pass/fail or compliance score.
+
+5. Local remediation assistant
+   Optional Ollama integration bound to loopback. Sends selected finding metadata and a small
+   optional code snippet; never uploads the APK or falls back to cloud AI.
+
+6. Source context mapping
+   Optional JADX command-line decompilation and capped keyword mapping to source context.
+   It does not perform full taint tracking or prove reachability.
+
+7. Remediation comparison
+   Compare scan history from distinct APK hashes to see indicators no longer detected,
+   newly detected, or still detected. Absence is not proof of a fix.
+
+8. Report formats
+   JSON, CSV, SARIF 2.1.0. CSV cells that could trigger spreadsheet formulas are neutralized.
+
+9. Safer desktop boundaries
+   Narrow IPC bridge, main-frame sender/origin checks, navigation restrictions, no renderer
+   Node integration, context isolation, sandbox, CSP, and blocked web permission prompts.
+
+10. Persistent scan history
+    Keeps up to 25 local reports. History is local to this computer and may contain sensitive
+    package metadata, so protect exported reports.

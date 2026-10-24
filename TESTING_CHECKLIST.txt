@@ -1,0 +1,16 @@
+LOCAL CHECKLIST FOR MILESTONE 3
+
+1. Open AppPath with `npm start`.
+2. Run a scan on an APK you are authorized to inspect.
+3. In Analyze APK, try the finding search field, severity filter, and category filter.
+4. Click a finding title and confirm the modal shows the real evidence and recommendation.
+5. Open Security graph and click a finding node.
+6. Open Candidate attack paths and confirm every listed step refers to a finding from the report.
+7. Open MASVS checklist and confirm it says partial topic mapping / not certification.
+8. In Reports, export JSON, CSV, and SARIF and open each file in a text editor.
+9. Close and reopen AppPath, then confirm the latest report is restored.
+10. Optional: install/start Ollama, pull qwen2.5-coder:1.5b, refresh AI Fix, and request remediation for one selected finding.
+11. Optional: select the official JADX CLI launcher and test code mapping on a small APK.
+12. Optional: scan a distinct rebuilt APK hash and compare it in Validation.
+
+If a test fails, keep the terminal output; it helps identify the layer that failed.
