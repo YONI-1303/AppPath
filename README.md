@@ -3,7 +3,11 @@
 ## Advancing Mobile Security Frameworks with Graph Intelligence and Local AI Remediation
 
 AppPath is a mobile security research and development project focused on improving the analysis of mobile applications through graph-based security intelligence and local AI-assisted remediation.
+## 5-Minute Video Presentation
 
+Watch our AppPath graduation project demonstration:
+
+Watch the AppPath presentation  https://youtu.be/8rEXwp2HnIk
 ## Project Goals
 
 * Analyze mobile application security relationships and dependencies.
