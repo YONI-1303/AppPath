@@ -51,13 +51,6 @@ npm start
 
 If the project is already set up on your computer, you may not need to reinstall dependencies every time. Run `npm start` to launch the development version.
 
-### Optional: Ollama Cloud AI Assistance
-
-1. Install Ollama from [ollama.com/download](https://ollama.com/download).
-2. Sign in using `ollama signin`.
-3. Confirm the desired cloud model is available in Ollama, then select it in AppPath's AI Fix interface if the feature is configured in your build.
-
-Ollama Cloud requires internet access. When using cloud AI, send only the finding details or code snippets necessary for the explanation. Do not share private keys, passwords, tokens, or confidential source code.
 
 ## Typical Workflow
 
@@ -95,3 +88,5 @@ The official project-review roster lists the following team members:
 ## Acknowledgment
 
 Prepared as a graduation project for review by the INSA Cyber Talent Center mentors.
+
+TNX!!!
