@@ -7,7 +7,7 @@ AppPath is a mobile security research and development project focused on improvi
 
 Watch our AppPath graduation project demonstration:
 
-Watch the AppPath presentation  https://youtu.be/8rEXwp2HnIk
+Watch the AppPath presentation  https://youtu.be/b1873esCeIA
 ## Project Goals
 
 * Analyze mobile application security relationships and dependencies.
